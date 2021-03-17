@@ -1,0 +1,23 @@
+{
+  "name": "api_cat_facts",
+  "version": "1.0.0",
+  "description": "**Author:**     Jessica Cassidy",
+  "main": "fetch.js",
+  "scripts": {
+    "build-css": "tailwindcss build src/styles.css -o public/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cassjsdev/api_cat_facts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cassjsdev/api_cat_facts/issues"
+  },
+  "homepage": "https://github.com/cassjsdev/api_cat_facts#readme",
+  "dependencies": {
+    "tailwindcss": "^2.0.3"
+  }
+}
