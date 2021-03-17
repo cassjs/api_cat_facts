@@ -3,23 +3,21 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="public/styles.css" rel="stylesheet" type="text/css">
-    <!-- Font Source: Google Fonts - https://fonts.google.com/specimen/Baloo+Da+2 -->
-    <!-- <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;800&display=swap" rel="stylesheet"> -->
+    <link href="styles.css" rel="stylesheet" type="text/css">
     <title>😸 Cat Facts Generator</title>
 </head>
-<body>
-    <div class="">
-        <div class="">
-            <h1 class="">😸 Cat Facts</h1>
-            <span id="catFact" class=""></span>
-        </div>
+<body class="font-mono container mx-auto bg-gradient-to-r from-purple-400 to-blue-300 sm:max-w-lg md:max-w-xl lg:max-w-3xl xl:max-w-4xl">
+    <div class="mb-8">
+        <h1 class="mt-8 font-extrabold text-center text-3xl text-white lg:mt-40 xl:mt-40">😸 Cat Facts</h1>
     </div>
-    <div class="">
-        Source: <a href="https://alexwohlbruck.github.io/cat-facts/">Cat API</a>
-        <br><br>
-        <button id="btn" class="">New Cat Fact</button>
+    <div class="ml-4 mr-4 max-h-screen h-80 bg-white bg-opacity-50 rounded border-4 border-green-200 border-opacity-100 p-8 sm:max-h-screen h-60">
+        <span id="catFact" class="flex-shrink content-center sm:text-sm md:text-md lg:text-lg"></span>
+    </div>
+    <div>
+        <div class="ml-4 mr-4 text-green-200 text-sm hover:text-pink-400">Source: <a href="https://alexwohlbruck.github.io/cat-facts/" target="_blank">Cat API</a></div>
+        <button id="btn" class="flex content-center ml-4 mr-4 mt-4 bg-transparent text-green-200 font-semibold hover:text-pink-400 py-2 px-4 border border-green-200 hover:border-pink-400 rounded">
+            Meow
+        </button>
     </div>
     <script src="fetch.js"></script>
 </body>
