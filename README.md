@@ -8,4 +8,4 @@ A simple generator that pulls random cat facts when the application is either lo
 - Tailwind CSS
 
 ## Preview:
-![](public/images/screenshot_program-output_1.png)
+![](public/images/screenshot_program-output.png)
