@@ -4,8 +4,8 @@
   "description": "**Author:**     Jessica Cassidy",
   "main": "fetch.js",
   "scripts": {
-    "start": "npm run build:css",
-    "build:css": "tailwindcss build src/styles.css -o public/styles.css"
+    "build-css": "tailwindcss build src/styles.css -o public/styles.css",
+    "start": "node public/index.js"
   },
   "repository": {
     "type": "git",
