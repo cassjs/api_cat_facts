@@ -19,7 +19,6 @@
   },
   "homepage": "https://github.com/cassjsdev/api_cat_facts#readme",
   "dependencies": {
-    "autoprefixer": "^10.2.5",
-    "tailwindcss": "^2.0.4"
+    "tailwindcss": "^2.2.7"
   }
 }
